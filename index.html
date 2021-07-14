@@ -11,7 +11,7 @@
     <div id="top1">
         <ul>
             <li>
-                <h1>BuildMore</h1>
+                <h1>Build<span id="green">More</span></h1>
             </li>
             <li>
                 <p>nuber</p>
@@ -20,16 +20,15 @@
         </ul>
     </div>
     <div class="container">
-        <p>This is india's no. 1 platform in which you can earn money sitting at home by joining with our BuildMore
-            team, we have many experts with us who will help you always.
+        <p>
+            WE ARE WITH YOU
         </p>
+        <div  class="cont2">
+            <img src="./DSC_0218-01.jpeg" alt="">
+            <p>Hi, I am Sanskar Varma foundeer of BuildMore. Join today and start earning with our experts. </p>
+        </div>
 
 
-    </div>
-    <div class="cont2">
-        <p>Hi, I am Sanskar Varma foundeer of BuildMore. Join today and start earning with our experts who will help you
-            to get out of all your problems, then what is the delay, then join today with the team of BuildMoreand start
-            your earning. </p>
     </div>
     <div id="box1">
         <h3>Join price increase in ...</h3>
@@ -39,7 +38,7 @@
         <h2>How to start earning money?</h2>
         <ul>
             <li>
-                <p> Bulidmore will provide you with a tool that you can use to start earning money.</p>
+                <p> BulidMore will provide you with a tool that you can use to start earning money.</p>
             </li>
             <li>
                 <p>The tool that will be given to you will be monetised. By which your earning will start from day one.
@@ -97,6 +96,13 @@
     </div>
 </body>
 <style>
+    #green{
+        color: chartreuse;
+    }
+    #top1 ul{
+        margin: 0%;
+        padding: 0%;
+    }
     #top1 ul li {
         list-style-type: none;
         display: inline;
@@ -110,36 +116,54 @@
     #top1 p {
         float: right;
     }
-
+    .cont2{
+        display: flex;
+        flex-direction: row;
+    }
+    .cont2 img{
+        display: inline-block;
+        width: 25%;
+        height: 25%;
+        border: 2px solid white;
+        box-shadow: 2px 2px 10px black;
+    }
     .container p {
 
         font-size: 200%;
         margin: 20%;
         margin-top: 4%;
         padding: 6%;
+        margin-bottom: 2%;
         color: aliceblue;
-        padding-bottom: 10%;
+        padding-bottom: 0%;
+        margin-left: 30%;
     }
 
     .container {
         width: 100%;
         display: flex;
+        flex-direction: column;
 
 
     }
 
     .container:before {
         content: "";
-        background: url("./Untitled-1.png") no-repeat center center/cover;
+        background: url("./depositphotos_10654338-stock-photo-two-businessmen-shaking-hands.jpg") no-repeat center center/cover;
+        
         position: absolute;
         width: 100%;
-        height: 100%;
+        height: 50%;
         z-index: -1;
     }
 
     .cont2 p {
+        
+        font-size: 140%;
+        color: black;
         margin: 5%;
         padding: 5%;
+        margin-top: 13%;
     }
 
     #box1 {
@@ -206,7 +230,94 @@
     .container p{
         font-size: 120%;
         margin-top: 25%;
-        padding-bottom: 50%;
+        padding-bottom: 10%;
+        margin: 10%;
+    }
+    .cont2 img{
+        width: 50%;
+        height: 50%;
+    }
+    .cont2 p{
+        margin: 0%;
+        margin-left: 5%;
+        margin-top: 40%;
+        font-size: 80%;
+        padding: 0%;
+    }
+    #cont3 h2{
+        margin-left: 15%;
+    }
+    #cont4 section h1{
+        margin-left: 30%;
+    }
+    #cont4 section p{
+        margin-left: 25%;
+    }
+    #cont4 h4,h5{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:400px) {
+    .container p{
+        font-size: 120%;
+        margin-top: 25%;
+        padding-bottom: 10%;
+        margin: 10%;
+    }
+    .cont2 img{
+        width: 50%;
+        height: 50%;
+    }
+    .cont2 p{
+        margin: 0%;
+        margin-left: 5%;
+        margin-top: 50%;
+        font-size: 80%;
+        padding: 0%;
+    }
+}
+@media screen and (max-width:360px) {
+    .container p{
+        font-size: 120%;
+        margin-top: 25%;
+        padding-bottom: 10%;
+        margin: 10%;
+    }
+    .cont2{
+        margin-top: 10%;
+    }
+    .cont2 img{
+        width: 50%;
+        height: 50%;
+    }
+    .cont2 p{
+        margin: 0%;
+        margin-left: 5%;
+        margin-top: 55%;
+        font-size: 80%;
+        padding: 0%;
+    }
+}
+@media screen and (max-width:300px) {
+    .container p{
+        font-size: 120%;
+        margin-top: 25%;
+        padding-bottom: 10%;
+        margin: 10%;
+    }
+    .cont2{
+        margin-top: 20%;
+    }
+    .cont2 img{
+        width: 50%;
+        height: 50%;
+    }
+    .cont2 p{
+        margin: 0%;
+        margin-left: 5%;
+        margin-top: 55%;
+        font-size: 80%;
+        padding: 0%;
     }
 }
 </style>
